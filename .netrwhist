@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/aaron/oss/fog/lib/fog/aws/parsers'
 let g:netrw_dirhist_2='/Users/aaron/oss/fog/lib/fog/aws/parsers/rds'
+let g:netrw_dirhist_3='/Users/aaron/.vim'
+let g:netrw_dirhist_4='/Users/aaron/mdsol/medistrano'
+let g:netrw_dirhist_5='/Users/aaron/.vim'
+let g:netrw_dirhist_6='/Users/aaron/.vim/bundle'
