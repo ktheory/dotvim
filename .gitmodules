@@ -1,0 +1,3 @@
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = https://github.com/vim-scripts/endwise.vim.git
