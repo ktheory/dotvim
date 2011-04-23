@@ -16,3 +16,6 @@ if filereadable($HOME . "/.gvimrc.local")
 endif
 
 colorscheme darkspectrum
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·

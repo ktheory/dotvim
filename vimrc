@@ -140,9 +140,6 @@ imap <C-F> <C-R>=expand("%")<CR>
 " overwriting the default register
 vmap P p :call setreg('"', getreg('0')) <CR>
 
-" Display extra whitespace
-set list listchars=tab:»·,trail:·
-
 " Edit routes
 command! Rroutes :e config/routes.rb
 command! RTroutes :tabe config/routes.rb
