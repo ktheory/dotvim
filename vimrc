@@ -105,6 +105,9 @@ map <Leader>su :RSunittest
 map <Leader>sf :RSfunctionaltest 
 map <Leader>si :RSintegrationtest 
 
+" Easier tag list
+map <Leader>tl :TlistToggle<CR>
+
 " Hide search highlighting
 map <Leader>l :set invhls <CR>
 
