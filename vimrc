@@ -126,6 +126,9 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Maps autocomplete to tab
 imap <Tab> <C-P>
 
+" Maps Control-L to hash rocket
+imap <C-l> <Space>=><Space>
+
 " Duplicate a selection
 " Visual mode: D
 vmap D y'>p
