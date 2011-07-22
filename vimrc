@@ -10,12 +10,16 @@ set nocompatible
 set backspace=indent,eol,start
 
 set nobackup
+set noswapfile
 set nowritebackup
-set history=50 " keep 50 lines of command line history
+set undolevels=1000
+set history=1000
 set ruler " show the cursor position all the time
 set showcmd " display incomplete commands
 set incsearch " do incremental searching
 set smartcase "Ignore case, unless using capitals
+
+set hidden " hide buffers, avoid warnings about unsaved changes
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
