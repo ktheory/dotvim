@@ -13,3 +13,6 @@
 [submodule "bundle/chef"]
 	path = bundle/chef
 	url = https://github.com/t9md/vim-chef
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
