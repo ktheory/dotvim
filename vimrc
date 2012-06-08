@@ -9,6 +9,9 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+" Easier non-interactive command insertion
+nnoremap <Space> :
+
 set nobackup
 set noswapfile
 set nowritebackup
