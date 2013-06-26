@@ -5,10 +5,10 @@ Installation:
 Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc.bundles ~/.vimrc.bundles
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+Install vim bunldes (vundles):
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    vim -u ~/.vimrc.bundles +BundleInstall +qa
