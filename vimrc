@@ -23,6 +23,12 @@ endif
 
 filetype plugin indent on
 
+" System clipboard integration
+" Send selection to clipboard
+" http://stackoverflow.com/a/9449010/197645
+vmap <C-x> :!pbcopy<CR>
+vmap <C-c> :w !pbcopy<CR><CR>
+
 augroup vimrcEx
   autocmd!
 
@@ -72,6 +78,8 @@ endif
 colorscheme github
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
+"colorscheme solarized
+set background=light
 
 " Numbers
 set number
