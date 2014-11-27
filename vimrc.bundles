@@ -29,5 +29,6 @@ Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/greplace.vim'
 Plugin 'vim-scripts/tComment'
 Plugin 'xenoterracide/html.vim'
+Plugin 'fatih/vim-go'
 
 filetype on
