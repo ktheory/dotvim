@@ -30,5 +30,7 @@ Plugin 'vim-scripts/greplace.vim'
 Plugin 'vim-scripts/tComment'
 Plugin 'xenoterracide/html.vim'
 Plugin 'fatih/vim-go'
+Plugin 'kana/vim-textobj-user'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 
 filetype on
