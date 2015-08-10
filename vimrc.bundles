@@ -32,5 +32,6 @@ Plugin 'xenoterracide/html.vim'
 Plugin 'fatih/vim-go'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'vim-scripts/VimClojure'
 
 filetype on
