@@ -33,5 +33,6 @@ Plugin 'fatih/vim-go'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-scripts/VimClojure'
+Plugin 'lambdatoast/elm.vim'
 
 filetype on
