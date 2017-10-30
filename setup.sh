@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/bin/bash
+
+set -e
 
 ln -sf ~/.vim/vimrc ~/.vimrc
 ln -sf ~/.vim/vimrc.bundles ~/.vimrc.bundles
