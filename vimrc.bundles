@@ -34,5 +34,6 @@ Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'lambdatoast/elm.vim'
+Plugin 'slashmili/alchemist.vim'
 
 filetype on
