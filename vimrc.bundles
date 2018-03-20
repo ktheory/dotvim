@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Let Vundle manage Vundle
-Plugin 'gmarik/vundle'
+Plugin 'vundle/Vundle.vim'
 
 " Define bundles via Github repos
 Plugin 'croaky/vim-colors-github'
@@ -34,5 +34,7 @@ Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'lambdatoast/elm.vim'
+Plugin 'slim-template/vim-slim.git'
+
 
 filetype on
