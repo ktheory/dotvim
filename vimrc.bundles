@@ -5,10 +5,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Let Vundle manage Vundle
-Plugin 'vundle/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim.git'
 
 " Define bundles via Github repos
-Plugin 'croaky/vim-colors-github'
+Plugin 'acarapetis/vim-colors-github'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'danro/rename.vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -16,9 +16,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'nanki/treetop.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'thoughtbot/vim-rspec'
-Plugin 'timcharper/textile.vim'
 Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-haml'
