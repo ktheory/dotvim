@@ -33,6 +33,6 @@ Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'lambdatoast/elm.vim'
 Plugin 'slim-template/vim-slim.git'
-
+Plugin 'hashivim/vim-terraform.git'
 
 filetype on
